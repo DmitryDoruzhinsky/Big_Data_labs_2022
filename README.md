@@ -42,7 +42,17 @@ jupyter-notebook --ip=0.0.0.0 --port=50001 --allow-root --no-browser
 ```
 6. Заходим по сгенерированному адресу jupyter и производим выполнения заданий лабораторной работы а именно:</br>
 6.1. Найти велосипед с максимальным временем пробега.</br>
+![image](https://user-images.githubusercontent.com/83270014/209485844-6882960d-0efd-4b5f-885a-08562ca1741d.png)
+
 6.2. Найти наибольшее геодезическое расстояние между станциями.</br>
+![image](https://user-images.githubusercontent.com/83270014/209485905-1aa5152f-01fb-44f0-aa15-f8029fbd1368.png)
+
 6.3. Найти путь велосипеда с максимальным временем пробега через станции.</br>
+![image](https://user-images.githubusercontent.com/83270014/209486016-b9f767a7-4e6f-41c0-8c73-75d5335fbed0.png)
+
 6.4. Найти количество велосипедов в системе.</br>
+![image](https://user-images.githubusercontent.com/83270014/209486051-1b292894-8b81-4406-9434-f458c3dff2f4.png)
+
 6.5.Найти пользователей потративших на поездки более 3 часов.</br>
+![image](https://user-images.githubusercontent.com/83270014/209486076-9083b494-3505-4192-9212-b03499cc89b6.png)
+
