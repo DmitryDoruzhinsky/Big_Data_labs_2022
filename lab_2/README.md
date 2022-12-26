@@ -42,5 +42,7 @@ pip install pyspark
 jupyter-notebook --ip=0.0.0.0 --port=50001 --allow-root --no-browser
 ```
 6. Заходим по сгенерированному адресу jupyter и производим выполнения заданий лабораторной работы, а именно:
+![image](https://user-images.githubusercontent.com/83270014/209573660-0fd7d838-d4cd-402e-84a9-d326d51c82c3.png)
+![Отчёт](https://user-images.githubusercontent.com/83270014/209574072-fee7d3c0-4398-425e-98d9-3f24d43a70fd.png)
 
 
