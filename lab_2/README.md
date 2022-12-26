@@ -42,7 +42,7 @@ pip install pyspark
 jupyter-notebook --ip=0.0.0.0 --port=50001 --allow-root --no-browser
 ```
 6. Заходим по сгенерированному адресу jupyter и производим выполнения заданий лабораторной работы, а именно создание отчёта о топ 10 языков програмирования, файл после сохранения - *reports_top_10_languages_year_2010-2019* </br>
-![image](https://user-images.githubusercontent.com/83270014/209577584-4f92e092-a0b6-41d9-a258-d34dd3939fcb.png)
+![image](https://user-images.githubusercontent.com/83270014/209579946-e761f41f-00dc-4a0d-9d16-7244ab5abd31.png)
 
 ![Отчёт](https://user-images.githubusercontent.com/83270014/209574072-fee7d3c0-4398-425e-98d9-3f24d43a70fd.png)
 
