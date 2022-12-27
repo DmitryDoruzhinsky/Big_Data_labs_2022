@@ -13,8 +13,15 @@
 ![image](https://user-images.githubusercontent.com/83270014/209723059-d8c72866-1628-4dfb-bd06-4254e09a2bf1.png)
 ![image](https://user-images.githubusercontent.com/83270014/209722394-7a96794e-c820-4684-8b92-8a526754c04d.png)
 ## RidesAndFaresExercise
-Цель этого упражнения — обогатить TaxiRides информацией о тарифах.
+Цель этого упражнения — обогатить TaxiRides информацией о тарифах.</br>
 Реализация:
 ![image](https://user-images.githubusercontent.com/83270014/209723097-865dbed3-fbdd-4e16-ac78-33e0e3a8a622.png)
 ![image](https://user-images.githubusercontent.com/83270014/209723158-4992597e-8f63-43d0-8f41-734e9cab4223.png)
 ![image](https://user-images.githubusercontent.com/83270014/209723217-8a4af76f-03c0-444e-a649-a871d3f10ca8.png)
+## HourlyTipsExerxise
+Задача упражнения состоит в том, чтобы сначала подсчитать общее количество чаевых, собранных каждым водителем, час за часом, и
+затем из этого потока найти наибольшее количество чаевых за каждый час. </br>
+Реализация:
+![image](https://user-images.githubusercontent.com/83270014/209723488-a2601a7f-507d-41e9-b508-109e32aae022.png)
+![1](https://user-images.githubusercontent.com/83270014/209723619-2a678ada-1d38-46fa-b803-90d32e8cf96a.png)
+
