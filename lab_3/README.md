@@ -13,7 +13,7 @@
 ![image](https://user-images.githubusercontent.com/83270014/209723059-d8c72866-1628-4dfb-bd06-4254e09a2bf1.png)
 ![image](https://user-images.githubusercontent.com/83270014/209722394-7a96794e-c820-4684-8b92-8a526754c04d.png)
 ## RidesAndFaresExercise
-цель этого упражнения TaxiRide и TaxiFare — объединить записи и для каждой поездки</br>
+Цель этого упражнения TaxiRide и TaxiFare — объединить записи и для каждой поездки</br>
 Реализация:
 ![image](https://user-images.githubusercontent.com/83270014/209723097-865dbed3-fbdd-4e16-ac78-33e0e3a8a622.png)
 ![image](https://user-images.githubusercontent.com/83270014/209723158-4992597e-8f63-43d0-8f41-734e9cab4223.png)
