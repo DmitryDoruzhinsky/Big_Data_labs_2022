@@ -5,7 +5,8 @@
 3. HourlyTipsExerxise - the task of the "Hourly Tips" exercise is to identify, for each hour, the driver earning the most tips;
 4. ExpiringStateExercise - the goal for this exercise is to enrich TaxiRides with fare information.
 
-Для выполнения заданий вам потребуется датасет с данными о поездках такси в Нью-Йорке https://github.com/apache/flink-training/blob/master/README.md#using-the-taxi-data-streams. Файлы `nycTaxiFares.gz` и `nycTaxiRides.gz` вы можете найти в папке `data` https://gitlab.com/ssau.tk.courses/big_data/-/tree/master/data.
+Для выполнения заданий вам потребуется датасет с данными о поездках такси в Нью-Йорке https://github.com/apache/flink-training/blob/master/README.md#using-the-taxi-data-streams. Файлы `nycTaxiFares.gz` и `nycTaxiRides.gz` вы можете найти в папке `data` https://gitlab.com/ssau.tk.courses/big_data/-/tree/master/data.Б</br>
+Задания выполнялись с использованием языка программирования **skala**.
 
 ## RideCleanisingExercise
 Задание состоит в том, чтобы отфильтровать поток данных о поездках на такси, чтобы оставить только те поездки, которые начинаются и кончаются в пределах Нью-Йорка.</br>
