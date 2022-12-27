@@ -13,7 +13,7 @@
 ![image](https://user-images.githubusercontent.com/83270014/209723059-d8c72866-1628-4dfb-bd06-4254e09a2bf1.png)
 ![image](https://user-images.githubusercontent.com/83270014/209722394-7a96794e-c820-4684-8b92-8a526754c04d.png)
 ## RidesAndFaresExercise
-Цель этого упражнения — обогатить TaxiRides информацией о тарифах.</br>
+цель этого упражнения TaxiRide и TaxiFare — объединить записи и для каждой поездки</br>
 Реализация:
 ![image](https://user-images.githubusercontent.com/83270014/209723097-865dbed3-fbdd-4e16-ac78-33e0e3a8a622.png)
 ![image](https://user-images.githubusercontent.com/83270014/209723158-4992597e-8f63-43d0-8f41-734e9cab4223.png)
@@ -24,4 +24,8 @@
 Реализация:
 ![image](https://user-images.githubusercontent.com/83270014/209723488-a2601a7f-507d-41e9-b508-109e32aae022.png)
 ![1](https://user-images.githubusercontent.com/83270014/209723619-2a678ada-1d38-46fa-b803-90d32e8cf96a.png)
-
+## ExpiringStateExercise
+Цель этого упражнения — обогатить TaxiRides информацией о тарифах. </br>
+Реализация:
+![image](https://user-images.githubusercontent.com/83270014/209723901-f83a5e40-f073-42ff-82d4-8edf62536f33.png)
+![2](https://user-images.githubusercontent.com/83270014/209724222-838cef80-c4b6-4d28-8359-7ce0aa1b06ca.png)
