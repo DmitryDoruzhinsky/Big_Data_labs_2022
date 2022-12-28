@@ -11,7 +11,6 @@ docker-compose up --build -d
 ```
 примечание: необходимо запустить приложение Docker и далее подождать загрузки необходимых файлов
 3. Подготовить среду к работе следующими командами вводимымы в Docker:
-
 ```
 apt-get update && apt-get install -y python3-distutils python3-apt
 ```
