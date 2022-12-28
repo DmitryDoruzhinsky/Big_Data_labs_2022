@@ -18,17 +18,8 @@ ssh root@localhost -p 2222
 ```
 mapr
 ```
-3. Перейти в директорю с ЛР:
-```
-cd /home/mapr/lab_1
-```
-4. Подготовить среду к работе следующими командами:
-```
-echo 'export PATH=$PATH:/opt/mapr/spark/spark-3.2.0/bin' > /root/.bash_profile
-```
-```
-source /root/.bash_profile
-```
+4. Подготовить среду к работе следующими командами вводимымы в Docker:
+
 ```
 apt-get update && apt-get install -y python3-distutils python3-apt
 ```
