@@ -54,5 +54,30 @@ jupyter-notebook --ip=0.0.0.0 --port=50001 --allow-root --no-browser
 6. Создаем необходимые процессы и задаем константы, также создаем list и записываем результаты.
 ![image](https://user-images.githubusercontent.com/83270014/209814688-554d70b0-c956-482c-bd2d-54ecd0c0750d.png)
 
+7. Пример результата
+![1](https://user-images.githubusercontent.com/83270014/209815547-502e100b-bd16-45c0-86f1-3c785072ddb2.png)
+
+
 
 ## Задание 2
+1. Создадим класс Client, который содержит свой id, путь до своего узла и KazooClient.
+![image](https://user-images.githubusercontent.com/83270014/209816020-e44877c3-0a0d-4928-a86c-9c96e5332c5a.png)
+
+2. В методе watch_myself происходит обработка действий, которые приходят от Coordinator - сделать commit, rollback или завершить поток, по причине отсоединия одного из клентов. В коде эта возможность предусмотрена, но не прописано случайное отключение одного из клиентов. </br>В методе run происходит случайный выбор действия ACTION/ROLLBACK, а также происходит запуск функции watch_myself, которая следит за изменениями своего узла. По истечению времени WAIT_HARD_WORK_SEC клиенты завершают свою работу;
+![image](https://user-images.githubusercontent.com/83270014/209816174-69e19155-f9a4-4759-8acf-89350de6125b.png)
+
+4. Coordinator следит за работой всех потоков и содержит в себе единственное поле timer, который срабатывает по расписанию;
+
+5. В методе select_action выбирается действие методом голосования и результат выбора отправялется каждому клиенту;
+![image](https://user-images.githubusercontent.com/83270014/209816331-fd271c61-9883-46fe-97dd-f53453bd3c6e.png)
+
+6. Метод check_clients получает информацию о клиентах и оповещает других, если один из уже подключенных клиентов отсоединился и говорит им завершить свою работу;
+![image](https://user-images.githubusercontent.com/83270014/209816381-7ca58b6f-50a0-44ee-b6b0-c14ff22a35b4.png)
+
+7. Метод watch_clients устанавливает значения в session_logs при первом подключение клиента, а далее происходит обработка количества клиентов.
+![image](https://user-images.githubusercontent.com/83270014/209816423-aa98617b-2bce-433c-8869-1b26f990fc61.png)
+
+8. В методе main создается общий процесс и клиенты;
+![image](https://user-images.githubusercontent.com/83270014/209816598-51b9b518-37ae-4cc8-bebe-c7b36a315dad.png)
+9. Результат
+![image](https://user-images.githubusercontent.com/83270014/209816698-82b3607a-fc5a-4723-b9dd-56cb78918d35.png)
