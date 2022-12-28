@@ -19,7 +19,8 @@
 ## RidesAndFaresExercise
 Цель этого упражнения TaxiRide и TaxiFare — объединить записи и для каждой поездки</br>
 Реализация:</br>
-- используем функции *flatMap1* и *flatMap2*, с параметрами (TaxiRide и TaxiFare);
+- используем функции *flatMap1* и *flatMap2*, с параметрами (TaxiRide и TaxiFare);</br>
+- если в поле класса содержится значение TaxiFare или TaxiRide, то применяется out.Collector с переданным набором из 2-ух элементов, иначе поданная на вход var записывается в поле класса.
 
 ![image](https://user-images.githubusercontent.com/83270014/209723097-865dbed3-fbdd-4e16-ac78-33e0e3a8a622.png)
 ![image](https://user-images.githubusercontent.com/83270014/209723158-4992597e-8f63-43d0-8f41-734e9cab4223.png)
@@ -27,7 +28,10 @@
 ## HourlyTipsExerxise
 Задача упражнения состоит в том, чтобы сначала подсчитать общее количество чаевых, собранных каждым водителем, час за часом, и
 затем из этого потока найти наибольшее количество чаевых за каждый час. </br>
-Реализация:
+Реализация:</br>
+- используем fares и находим общее число чаевых для каждого водителя;</br>
+- используем timeWindowAll и maxBy для нахождения наибольшего количества чаевых за каждый час.
+
 ![image](https://user-images.githubusercontent.com/83270014/209723488-a2601a7f-507d-41e9-b508-109e32aae022.png)
 ![1](https://user-images.githubusercontent.com/83270014/209723619-2a678ada-1d38-46fa-b803-90d32e8cf96a.png)
 ## ExpiringStateExercise
