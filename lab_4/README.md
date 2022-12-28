@@ -79,5 +79,5 @@ jupyter-notebook --ip=0.0.0.0 --port=50001 --allow-root --no-browser
 
 8. В методе main создается общий процесс и клиенты;
 ![image](https://user-images.githubusercontent.com/83270014/209816598-51b9b518-37ae-4cc8-bebe-c7b36a315dad.png)
-9. Результат
+9. Результат. </br>
 ![image](https://user-images.githubusercontent.com/83270014/209816698-82b3607a-fc5a-4723-b9dd-56cb78918d35.png)
